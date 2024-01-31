@@ -1,0 +1,59 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'IBM Plex Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.container p {
+    margin-bottom: 20px;
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
+.container-title {
+    color: #333333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ff9900;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 5px 15px rgba(255, 153, 0, 0.4), 0 0 20px rgba(255, 153, 0, 0.8);
+    margin-top: 10px;
+}
+
+
+.cta-button:hover {
+    background-color: #e68a00;
+}
+
+.bitcoin-image {
+    position: absolute;
+    top: -30px; 
+    right: -30px; 
+    width: 70px;
+    z-index: 1;
+    filter: drop-shadow(0 0 5px rgba(255, 153, 0, 0.8));
+}
